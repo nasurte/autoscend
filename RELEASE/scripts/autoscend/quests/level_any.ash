@@ -260,7 +260,7 @@ boolean LX_islandAccess()
 		return false;
 	}
 
-	if(in_lowkeysummer())
+	if(in_lowkeysummer() || in_zombieSlayer())
 	{
 		return LX_hippyBoatman();
 	}
