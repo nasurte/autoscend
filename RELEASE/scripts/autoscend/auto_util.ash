@@ -1449,6 +1449,10 @@ boolean isGeneralStoreAvailable()
 	{
 		return false;
 	}
+	if(in_zombieSlayer())
+	{
+		return false;
+	}
 	if(is_werewolf())
 	{
 		return false;
